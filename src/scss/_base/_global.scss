@@ -1,0 +1,58 @@
+*, *::before, *::after, 
+*:before, *:after{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all .2s ease-in-out;
+    &.initial{
+        background-color: $navy;
+    }
+    &.angular{
+        background-color: $angularRed;
+        color: $white;
+    }
+    &.vue{
+        background-color: $vueGreen;
+        color: $navy;
+    }
+    &.react{
+        background-color: $reactBlue;
+        color: $navy;
+    }
+    &.sass{
+        background-color: $sassPink;
+        color: $white;
+    }
+    &.bootstrap{
+        background-color: $bootstrapPurple;
+        color: $white;
+    }
+}
+.main-wrapper, .header-wrapper{
+    width: 100%;
+    max-width: 1140px;
+    margin: auto;
+}
+.text-center{
+    text-align: center;
+}
+.main-wrapper{
+    margin-top: 2rem;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-item{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    .flex-p-0{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

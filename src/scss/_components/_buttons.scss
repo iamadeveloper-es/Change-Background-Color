@@ -1,0 +1,26 @@
+.button-container{
+    text-align: center;
+}
+.btn_custom{
+    @include btnCustom;
+    &.btn_angular{
+        background-color: $angularRed;
+        color: $white;
+    }
+    &.btn_vue{
+        background-color: $vueGreen;
+        color: $navy;
+    }
+    &.btn_react{
+        background-color: $reactBlue;
+        color: $navy;
+    }
+    &.btn_sass{
+        background-color: $sassPink;
+        color: $white;
+    }
+    &.btn_bootstrap{
+        background-color: $bootstrapPurple;
+        color: $white;
+    }
+}

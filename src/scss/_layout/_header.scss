@@ -1,0 +1,13 @@
+.header{
+    padding: 1rem;
+    background-color: $navy;
+    h1{
+        color: $white;
+    }
+    .output{
+        color: $white;
+        span{
+            text-decoration: underline;
+        }
+    }
+}

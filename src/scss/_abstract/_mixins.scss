@@ -1,0 +1,7 @@
+@mixin btnCustom{
+    border: 1px solid $white;
+    margin: 1rem;
+    padding: .7rem 1.8rem;
+    border-radius: $regRadius;
+    cursor: pointer;
+}
